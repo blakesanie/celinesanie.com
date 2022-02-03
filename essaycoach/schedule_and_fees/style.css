@@ -1,0 +1,12 @@
+#backgroundImage {
+  background-image: url("homeOffice.jpg");
+  opacity: 0.3;
+}
+
+p {
+  width: 100%;
+  font-size: 22px;
+  line-height: 140%;
+  padding: 0 40px;
+  text-indent: 40px;
+}

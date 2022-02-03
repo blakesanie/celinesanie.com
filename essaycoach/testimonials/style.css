@@ -1,0 +1,43 @@
+#testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+  padding-top: 0px;
+  gap: 24px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 300px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 130%;
+  text-indent: 30px;
+}
+
+.author {
+  font-size: 13px;
+  opacity: 0.4;
+  text-align: center;
+}
+
+.author::before {
+  content: "- ";
+}
+
+#backgroundImage {
+  background-image: url("./meeting.jpeg");
+  background-attachment: fixed;
+  opacity: 0.4;
+}

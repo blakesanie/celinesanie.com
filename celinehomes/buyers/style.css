@@ -1,0 +1,30 @@
+#image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../nick-karvounis.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    filter: brightness(110%);
+    z-index: -5;
+}
+
+h4 {
+    font-size: 3vmin;
+    width: calc(100vw - 100px);
+    max-width: 1000px;
+    margin: 0 auto;
+    text-indent: 5vmin;
+}
+
+ul {
+    width: calc(100vw - 100px);
+    max-width: 1000px;
+    margin-left: calc(50vw + 5vmin);
+    margin-top: 4vmin;
+    padding-bottom: 4vmin;
+    transform: translateX(-50%);
+    font-size: 2.5vmin;
+    line-height: 5vmin;
+}
