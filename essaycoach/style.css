@@ -1,6 +1,7 @@
 #backgroundImage {
   background-image: url("stanford.jpg");
   opacity: 1;
+  transform: scaleX(-1);
 }
 
 #body {
