@@ -1,0 +1,48 @@
+#backgroundImage {
+  background-image: url("purple.jpg");
+  opacity: 1;
+  transform: scaleX(-1);
+}
+
+#body {
+  height: calc(100vh - 80px);
+}
+
+#text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  max-width: 600px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 30px;
+  font-size: 3vmin;
+  line-height: 140%;
+  text-indent: 5vmin;
+}
+
+@media screen and (max-width: 840px) {
+  #body {
+    height: calc(100vh - 120px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #text {
+    width: 100%;
+    height: auto;
+  }
+  p {
+    top: 0;
+    transform: none;
+    position: static;
+  }
+}

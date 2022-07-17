@@ -1,5 +1,0 @@
-User-Agent: *
-Disallow: /
-Allow: /essaycoach/index.html
-
-Sitemap: http://www.sanie.com/essaycoach/sitemap.xml
